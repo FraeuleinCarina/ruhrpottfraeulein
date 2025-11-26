@@ -1,0 +1,45 @@
+## Basic Configuration
+
+baseurl = "https://fraeuleincarina.github.io/ruhrpottfraeulein/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+contentdir = "content"
+
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Carina"
+title = "Ruhrpottfräulein"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+enableRobotsTXT = true
+
+## Cache Settings for GitHub Pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+## Site Settings
+[params]
+author = "Website? Oldschool."
+intro = "📸 [Insta](https://www.instagram.com/ruhrpottfraeulein/?hl=de)? Echtzeit!"
+description = "➡️ Komm rüber und folg mir dort!"
+authorimage = "logo.jpg"
+dateformat = "02.01.2006"
+
+## Social Accounts
+[params.social]
+instagram = "ruhrpottfraeulein"
+patreon = "u54840836"
+
+## Extras
+[params.extra]
+copyright = "© 2025. Ruhrpottfräulein."
+poweredby = false
+highlightjs = false
+socialmarkup = true
+toc = false
+displayrssicon = false
