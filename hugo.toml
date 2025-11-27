@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://fraeuleincarina.github.io/ruhrpottfraeulein/"
+baseurl = "https://ruhrpottfraeulein.de/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
